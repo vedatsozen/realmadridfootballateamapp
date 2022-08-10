@@ -8,4 +8,4 @@ And you can find footballers by writing their names inside search bar.
 
 I hope you love.
 
-Deployed link :
+Deployed link : https://realmadridfootballateamapp.netlify.app/
