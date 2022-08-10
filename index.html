@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu">
+    <ul>
+        <li><button onclick="allteam()" id="allteam">All Team</button></li>
+        <li><button onclick="goalkeepers()" id="goalkeepers">Goalkeepers</button></li>
+        <li><button onclick="defenders()" id="defenders">Defenders</button></li>
+        <li><button onclick="midfielders()" id="midfielders">Midfielders</button></li>
+        <li><button onclick="forwards()" id="forwards">Forwards</button></li>
+    </ul>
+</div>
+
+<h1>OUR FOOTBALL A TEAM FOOTBALLERS</h1>
+
+<h2>You can filter our football a team footballers by their playground on the pitch. Have fun.</h2>
+
+Write the name of footballer inside input. First letter is Capital. Example: "Casemiro"
+
+<br><br>
+
+<input id="searchid" type="text" oninput="showfootballer()">
+
+<div id="container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
